@@ -32,9 +32,9 @@ In this lab assignment, students will work on two Python files: `main.py` and `c
 
 1. Create a Python program named `main.py` that acts as a calculator application. This program will allow users to perform mathematical operations on two input numbers.
 
-2. Implement a function `get_float_input(prompt)` that takes a prompt as an argument and repeatedly asks the user for input until a valid floating-point number is entered. This function should handle potential ValueError exceptions and print an error message when the input is invalid.
+1. Implement a function `get_float_input(prompt)` that takes a prompt as an argument and repeatedly asks the user for input until a valid floating-point number is entered. This function should handle potential ValueError exceptions and print an error message when the input is invalid.
 
-3. In the `main` function:
+1. In the `main` function:
    - Display a welcome message to the user.
    - Use the `get_float_input` function to collect two floating-point numbers from the user: `num1` and `num2`.
    - Utilize the functions from the `calculator` module (provided in `calculator.py`) to perform the following operations:
@@ -43,27 +43,27 @@ In this lab assignment, students will work on two Python files: `main.py` and `c
      - Multiplication
      - Division (with error handling for division by zero)
 
-4. Handle exceptions:
+1. Handle exceptions:
    - Use try-except blocks to handle potential exceptions during division. If the user attempts to divide by zero, display an appropriate error message.
 
-5. Create a structured dictionary called `results` to store:
+1. Create a structured dictionary called `results` to store:
    - The user's input numbers (`num1` and `num2`)
    - The results of the mathematical operations (addition, subtraction, multiplication, and division, with appropriate error messages if applicable).
 
-6. Prompt the user to enter the name of a JSON file where the data should be saved.
-
-7. Use the `json` module to save the `results` dictionary as structured JSON data in the specified file. Handle exceptions that may occur during the JSON file saving process and provide meaningful error messages.
+1. Prompt the user to enter the name of a JSON file where the data should be saved.
+   
+1. Use the `json` module to save the `results` dictionary as structured JSON data in the specified file. Handle exceptions that may occur during the JSON file saving process and provide meaningful error messages.
 
 **calculator.py (Calculator Module):**
 
 1. Create a Python module named `calculator.py` that contains four mathematical functions: `add(a, b)`, `subtract(a, b)`, `multiply(a, b)`, and `divide(a, b)`.
 
-2. Implement each function to perform the corresponding mathematical operation on two input arguments (`a` and `b`).
+1. Implement each function to perform the corresponding mathematical operation on two input arguments (`a` and `b`).
 
-3. Pay special attention to error handling in the `divide` function. Raise a `ZeroDivisionError` exception if the second argument (`b`) is zero.
+1. Pay special attention to error handling in the `divide` function. Raise a `ZeroDivisionError` exception if the second argument (`b`) is zero.
 
     ```
-. Run the program using the command below and repeat the steps above until you are satisfied your program output meets the above requirements. 
+1. Run the program using the command below and repeat the steps above until you are satisfied your program output meets the above requirements. 
 
     ```
     python3 -m main
