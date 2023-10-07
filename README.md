@@ -65,15 +65,15 @@ In this lab assignment, students will work on two Python files: `main.py` and `c
 1. Run the program using the command below and repeat the steps above until you are satisfied your program output meets the above requirements. 
 
     ```
-    python3 -m main
+python3 -m main
     
     ```
 
 1. Run the unit testing program to ensure that your program runs as expected.
 
     ```
-   1. python3 -m unittest -v test1
-   1. python3 -m unittest -v test2
+ python3 -m unittest -v test1
+ python3 -m unittest -v test2
     
     ```
        
