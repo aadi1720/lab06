@@ -67,6 +67,7 @@ In this lab assignment, students will work on two Python files: `main.py` and `c
 
     ```
     python3 -m main
+    
     ```
 
 1. Run the unit testing program to ensure that your program runs as expected.
