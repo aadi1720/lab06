@@ -62,7 +62,6 @@ In this lab assignment, students will work on two Python files: `main.py` and `c
 
 1. Pay special attention to error handling in the `divide` function. Raise a `ZeroDivisionError` exception if the second argument (`b`) is zero.
 
-    ```
 1. Run the program using the command below and repeat the steps above until you are satisfied your program output meets the above requirements. 
 
     ```
